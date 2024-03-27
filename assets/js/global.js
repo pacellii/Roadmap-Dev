@@ -9,7 +9,9 @@ body.appendChild(footer);
 const imgFooter = 
         
         "<img src='./assets/img/logo.png' alt='Logo footer' class='imgFooter'>"+
-        "<p>Todos os direitos reservadors</p>";
+        "<p class='rights'>Todos os direitos reservados</p>" +
+        '<p>Criado por<a href="https://github.com/pacellii" target="_blank" id="my-github"> Pacellii <i class="bi bi-github"></i></a></p>';
+        
        
 
     footer.innerHTML += imgFooter;
